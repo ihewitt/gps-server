@@ -15,4 +15,4 @@ npm start``
 
 Fire up the tracker and browse to the webpage.
 
-![Screenshot](overview.jpg?raw=true "Screenshot")
+![Screenshot](overview.png?raw=true "Screenshot")
