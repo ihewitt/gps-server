@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title Live Tracking
+    script(type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js")
+    link(type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css")
+    link(type="text/css" rel="stylesheet" href="leaflet-elevation.min.css")
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+ 
+    style(type="text/css").
+      html, body { height: 100%; margin: 0; padding: 0; font-family: sans-serif}
+      #mapid { height: 100%; }
+      .overlay { width: 200px;
+                 position: absolute;
+                 top: 0;
+                 right: 0;
+                 bottom: 0; 
+                 background-color: rgba(255, 50, 50, 0.5);
+      }
+      @keyframes jump {
+      from { top: 0px; }
+      to { top: -8px; }
+      }
+      .bounce {
+          animation: jump 0.2s 10 alternate;
+      }
+
+  body(style="width:100%;height:100%;margin:0;padding:0")
+    script(type="text/javascript" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js")       
+    script(type="text/javascript" src="https://unpkg.com/leaflet-control-custom@1.0.0/Leaflet.Control.Custom.js")
+    script(type="text/javascript" src="https://unpkg.com/leaflet-gpx@1.5.0/gpx.js")
+    script(type="text/javascript" src="leaflet-elevation.min.js")
+           
+    div(id="mapid")    
+
+    script(type='text/javascript').var mode='!{mode}'
+ 
+    script(type="text/javascript" src="script.js")
+    

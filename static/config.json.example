@@ -1,0 +1,16 @@
+{
+    "courses": [
+        {
+            "name": "NDW100",
+            "gpx": "courses/NDW100.gpx",
+            "date": "14 Nov 2020"
+        }
+    ],
+
+    "trackers": [
+        {
+            "name": "Prototype",
+            "tracker": "#add imei here#"
+        }
+    ]
+}

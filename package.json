@@ -1,0 +1,13 @@
+{
+  "name": "gps-server",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "nedb": "^1.8.0"
+  }
+}

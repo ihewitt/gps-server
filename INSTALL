@@ -1,0 +1,5 @@
+update config.json and static/config.json as neccessary.
+then
+
+npm install
+npm start

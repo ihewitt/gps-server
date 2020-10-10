@@ -1,0 +1,16 @@
+{
+    "username": "user",
+    "password": "password",
+    
+    "trackerPort": 8765,
+    "httpPort": 8080,
+    
+    "databasePath": "database",
+    
+    "openTrackers": ["#add imei here#"],
+    "openStart": "2020-09-05T07:30:00.000Z",
+    "openZone": {
+        "latitude": 50.819276,
+        "longitude": -0.136814
+    }
+}
