@@ -10,8 +10,10 @@ Only supports the homebrew tracker but it's straightforward to add on additional
 The config.json files in both the root and static directories will need tuning for different device id's (the important bit is adding the IMEI, but this could be changed to allow the server to listen to all), server locations, ports etc.
 
 Once done run, just:
-``npm install
-npm start``
+```
+npm install
+npm start
+```
 
 Fire up the tracker and browse to the webpage.
 
